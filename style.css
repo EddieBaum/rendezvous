@@ -37,13 +37,12 @@ Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #
   }
 
   .logo h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin: 0 auto; 
   }
 
   .navbar a {
     font-size: .9rem;
-    padding: 3px 3px; 
     text-align: center;
     letter-spacing: 4px;
   }
@@ -73,7 +72,7 @@ Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #
   }
 
   .modelsection h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .modelsection p {
@@ -82,7 +81,7 @@ Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #
 
   .modelsection img {
     border: white solid 10px; 
-    width: 70%;
+    width: 73%;
     height: auto;
   }
   
@@ -105,10 +104,7 @@ Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #
   .modelsectoin h2 {
     font-size: 1rem;
   }
-  
-  .navlink {
-    background-color: white;
-  }
+
 }
 
 #menuicon {
@@ -120,10 +116,10 @@ Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #
 }
 
 .navlink {
-  padding: 3px 3px; 
+  padding: 1px 3px; 
   border-radius: 3px;
 }
-/***************** WEBSITE GENERAL SECTION *****************/
+
 html {
   font-size: 16px;
 }
@@ -144,9 +140,9 @@ font-family: 'Josefin Sans', sans-serif;
   top: 0px;  
   width: 100%; 
   height: 6%; 
-  background-color: #ffffff; 
   /*background: linear-gradient(rgb(255, 255, 255, 0.4),rgb(255, 255, 255, 0.4));*/
   color: #3a0066;
+  background-color: #ffffff;
   border-bottom: 1px solid #d399ff;
 }
 
@@ -178,12 +174,11 @@ a {
   font-family: 'Josefin Sans', sans-serif; 
   text-decoration: none;
   color:  #3a0066; 
-  padding: 5px 5px;
 }
 
 .herobanner {
   height: 92vh;
-  background: linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.05)), url("https://eddiebaum.github.io/rendezvous/herobannercami.jpeg");
+  background: linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.05)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/herobannercami.jpeg");
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center; 
@@ -239,21 +234,11 @@ a {
   flex: 1; 
 }
 
-/*.imagecontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.06)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/mountainsky.jpeg");
-  border-radius: 3px 3px 0 0;
-  background-repeat: repeat;
-  background-size: 20%; 
-}*/
-
 .imagecontainer1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("https://eddiebaum.github.io/rendezvous/istockphoto-bikini-612x612.jpeg");
+  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/istockphoto-bikini-612x612.jpeg");
   border-radius: 3px 3px 0 0;
   background-repeat: repeat;
   background-size: 20%; 
@@ -263,7 +248,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("https://eddiebaum.github.io/rendezvous/istockphoto-bra-612x612.jpeg");
+  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/istockphoto-bra-612x612.jpeg");
   border-radius: 3px 3px 0 0;
   background-repeat: repeat;
   background-size: 20%; 
@@ -273,7 +258,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("https://eddiebaum.github.io/rendezvous/istockphoto-panties2-612x612.jpeg");
+  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/istockphoto-panties2-612x612.jpeg");
   border-radius: 3px 3px 0 0;
   background-repeat: repeat;
   background-size: 20%;
@@ -296,16 +281,23 @@ a {
 }
 
 .h2content{
-  margin: 0 auto; 
+  margin: 0 auto 5px; 
   font-family: 'Aboreto', cursive;
   font-size: 2.5rem;
+}
+
+.h2content:hover {
+  border-bottom: #a733ff 3px solid;
+  cursor: pointer;
+
 }
 
 .pcontent {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.3rem;
   text-align: center;
-  margin-top: 0;
+  margin: 10px;
+  padding: 5px 0px; 
 }
 
 /* Model Info Section */
@@ -327,14 +319,14 @@ a {
 
 .model1info, .model2info, .model3info {
   display: flex;
-  flex-basis: 34%; 
+  flex-basis: 36%; 
   flex-direction: column;
   margin-top: 0;
   border-right: #d399ff 2px solid;
   padding-right: 10px;
 }
 
-.model3photo, .model2photo, .model1photo {
+.model1photo, .model2photo, .model3photo {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -348,10 +340,10 @@ a {
 }
 
 .h2modelname {
-  font-size: 4rem;
+  font-size: 3.3rem;
   text-align: right;
   margin-bottom: 0;
-  display: flex; 
+
 }
 
 .pmodelinfo {
@@ -367,19 +359,17 @@ a {
 }
 
 .acontacticon {
-  color: white; 
-  margin: 3px;
+  color: white;
+  margin-left: 10px; 
+  padding-bottom: 10px; 
 }
 
 .acontacticon:hover {
   border-bottom: #d399ff 3px solid;
+  cursor: pointer; 
 }
 
-.modelsection ul {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-around;
-}
+
 
 /* Footer Section */
 
