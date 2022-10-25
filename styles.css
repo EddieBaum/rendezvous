@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Pinstripe:ital@0;1&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Josefin+Sans:ital,wght@0,100;0,400;1,100&display=swap');
+
+/*  
+menu icon: <ion-icon name="menu-outline"></ion-icon>
+
+font-family: 'Inspiration', cursive;
+
+font-family: 'Aboreto', cursive;
+font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Square Peg', cursive; 
+    
+Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #a733ff Pink #d399ff White #ffffff 
+
+*/
+
+/* { border : solid 1px orange; }*/
+/* Tablet size screen */
+@media only screen and (max-width: 700px) { /* Small tablet and smaller */
+
+  .headersection {
+    flex-direction: column;
+  }
+
+  .featuresection {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .imageandinfocard {
+    margin: auto auto; 
+    width: 100%;
+  }
+
+  p { 
+    font-size: 1.5rem;
+  }
+
+  .logo h1 {
+    font-size: 2.5rem;
+    margin: 0 auto; 
+  }
+
+  .navbar a {
+    font-size: .9rem;
+    padding: 3px 3px; 
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  .navlink {
+    margin: 0 auto; 
+    text-align: center;
+    width: 110px; 
+  }
+
+  .navbar {
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .h1banner {
+   font-size: 1.2rem;
+  }
+
+  .newcollectionbanner h3 {
+    font-size: 1.3rem; 
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .modelsection h2 {
+    font-size: 1.5rem;
+  }
+
+  .modelsection p {
+    font-size: 1.2rem; 
+  }
+
+  .modelsection img {
+    border: white solid 10px; 
+    width: 70%;
+    height: auto;
+  }
+  
+
+}
+/* Cell phone screen */
+@media only screen and (max-width: 420px) {
+  .modelsection img {
+  border: 5px white solid; 
+  }
+  
+  .modelsection p {
+    font-size: .7rem;
+  }
+  
+  .modelsection a {
+    font-size: .6rem;
+  }
+
+  .modelsectoin h2 {
+    font-size: 1rem;
+  }
+  .model1info {
+    width: 30%; 
+  }
+  
+  .navlink {
+    background-color: white;
+  }
+}
+
+#menuicon {
+  display: none; 
+}
+
+.navlink:hover {
+  border-bottom: 3px  #a733ff solid; 
+}
+
+.navlink {
+  padding: 3px 3px; 
+  border-radius: 3px;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+h2 {
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.headersection {
+  display: flex; 
+  margin: 0 auto; 
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;  
+  width: 100%; 
+  height: 6%; 
+  background: linear-gradient(rgb(255, 255, 255, 0.4),rgb(255, 255, 255, 0.4));
+  color: #3a0066;
+  border-bottom: 1px solid #d399ff;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-family: 'Aboreto', cursive;
+  margin: 0 auto;
+  background-color: white;
+  padding: 3px 15px; 
+  border-radius: 0 0 3px 3px;
+}
+
+#vlogo {
+  color: #a733ff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;  
+  background-color: white;
+  border-radius: 0 0 3px 3px;
+}
+
+
+a {
+  font-size: 1.2rem; 
+  font-family: 'Josefin Sans', sans-serif; 
+  text-decoration: none;
+  color:  #3a0066; 
+  padding: 5px 5px;
+}
+
+.herobanner {
+  height: 92vh;
+  background: linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.05)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/herobannercami.jpeg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid  #3a0066;
+  margin: 0 auto; 
+}
+
+.newcollectionbanner {
+  display: flex; 
+  flex-direction: column;
+  width: 100%;
+  background-color: white; 
+  border-top:  #3a0066 1px solid;
+  border-bottom: #3a0066 1px solid;
+}
+
+.h1banner {
+  text-align: center;
+  font-family: Aboreto;
+  letter-spacing: 5px;
+  color: #3a0066;
+}
+
+.h3banner {
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-size: 2rem;
+  margin: 0; 
+}
+
+#new {
+  color: #a733ff;
+}
+
+/* Feature Section */
+
+.featuresection {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px auto; 
+}
+
+.imageandinfocard {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 32%;
+  border: #3a0066 solid 4px;
+  max-width: 98%;
+  flex: 1; 
+}
+
+/*.imagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.06)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/mountainsky.jpeg");
+  border-radius: 3px 3px 0 0;
+  background-repeat: repeat;
+  background-size: 20%; 
+}*/
+
+.imagecontainer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/istockphoto-bikini-612x612.jpeg");
+  border-radius: 3px 3px 0 0;
+  background-repeat: repeat;
+  background-size: 20%; 
+}
+
+.imagecontainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/istockphoto-bra-612x612.jpeg");
+  border-radius: 3px 3px 0 0;
+  background-repeat: repeat;
+  background-size: 20%; 
+}
+
+.imagecontainer3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(255, 255, 255, 0.5),rgb(255, 255, 255, 0.5)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/istockphoto-panties2-612x612.jpeg");
+  border-radius: 3px 3px 0 0;
+  background-repeat: repeat;
+  background-size: 20%;
+}
+
+.belowimageinfo {
+  background-color: white;
+  color: #3a0066;
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+}
+
+.productimg {
+  max-height: 100%;
+  width: auto;
+  max-height: 220px; 
+  border-radius: 5px;
+  margin: 13px 0; 
+}
+
+.h2content{
+  margin: 0 auto; 
+  font-family: 'Aboreto', cursive;
+  font-size: 2.5rem;
+}
+
+.pcontent {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Model Info Section */
+
+.modelsection {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 auto; 
+}
+
+.model1, .model2, .model3 {
+  display: flex;
+  justify-content: space-around;
+  border: 25px solid black;
+  margin: 3px 0; 
+  background-color: black;
+}
+
+.model1info, .model2info, .model3info {
+  display: flex;
+  flex-basis: 34%; 
+  flex-direction: column;
+  margin-top: 0;
+  border-right: #d399ff 2px solid;
+  padding-right: 10px;
+}
+
+.model3photo, .model2photo, .model1photo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%; 
+}
+
+.headshot {
+  border: 1rem solid white; 
+  width: auto;
+  max-height: 400px;  
+}
+
+.h2modelname {
+  font-size: 4rem;
+  text-align: right;
+  margin-bottom: 0;
+  display: flex; 
+}
+
+.pmodelinfo {
+  text-align: right;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 2rem;
+}
+
+.contactinfo  {
+  list-style-type: none;
+  display: flex; 
+  justify-content: right;
+}
+
+.acontacticon {
+  color: white; 
+  margin: 3px;
+}
+
+.acontacticon:hover {
+  border-bottom: #d399ff 3px solid;
+}
+
+.modelsection ul {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+
+/* Footer Section */
+
+.footersection {
+  background-color:#3a0066;
+  color: whitesmoke; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh; 
+  border-radius: 0 0 3px 3px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#copyright {
+  margin-left: 20px; 
+}
+
+#bitcoinlogo {
+  margin-right: 20px; 
+}
+
+/* #main-content div:nth-child(n) or .photo-grid div:nth-child(n)*/
+
+/*.featuresection div:nth-child(3) {
+  background-color: blue;
+}*/
+
+/*.featuresection div:nth-child(6) {
+  background-color: #d399ff;
+  flex-grow: 2;
+}*/
+
