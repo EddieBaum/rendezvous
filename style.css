@@ -126,7 +126,7 @@ Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #
   padding: 3px 3px; 
   border-radius: 3px;
 }
-
+/***************** WEBSITE GENERAL SECTION *****************/
 html {
   font-size: 16px;
 }
@@ -185,7 +185,7 @@ a {
 
 .herobanner {
   height: 92vh;
-  background: linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.05)), url("file:///Users/edwardbaum/Desktop/Test%20Website/flexbox-business-site-starting/content/herobannercami.jpeg");
+  background: linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.05)), url("https://eddiebaum.github.io/rendezvous/herobannercami.jpeg");
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center; 
