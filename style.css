@@ -16,6 +16,9 @@ Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #
 
 /* { border : solid 1px orange; }*/
 /* Tablet size screen */
+/* https://eddiebaum.github.io/rendezvous/ (file.name)*/
+
+
 @media only screen and (max-width: 700px) { /* Small tablet and smaller */
 
   .headersection {
@@ -228,7 +231,7 @@ a {
 .imageandinfocard {
   display: flex;
   flex-direction: column;
-  flex-basis: 31%;
+  flex-basis: 32%;
   border: #3a0066 solid 4px;
   max-width: 98%;
   flex: 1; 
@@ -269,7 +272,7 @@ a {
   color: #3a0066;
   display: flex;
   flex-direction: column;
-  padding: 6%;
+  padding: 6% 0;
 }
 
 .productimg {
@@ -369,8 +372,6 @@ a {
   cursor: pointer; 
 }
 
-
-
 /* Footer Section */
 
 .footersection {
@@ -392,14 +393,5 @@ a {
   margin-right: 20px; 
 }
 
-/* #main-content div:nth-child(n) or .photo-grid div:nth-child(n)*/
 
-/*.featuresection div:nth-child(3) {
-  background-color: blue;
-}*/
-
-/*.featuresection div:nth-child(6) {
-  background-color: #d399ff;
-  flex-grow: 2;
-}*/
 
