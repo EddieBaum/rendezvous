@@ -228,7 +228,7 @@ a {
 .imageandinfocard {
   display: flex;
   flex-direction: column;
-  flex-basis: 32%;
+  flex-basis: 31%;
   border: #3a0066 solid 4px;
   max-width: 98%;
   flex: 1; 
