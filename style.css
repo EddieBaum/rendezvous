@@ -121,6 +121,7 @@ Colors:  Black #000000  Dark Purple #3a0066  Medium Purple #7400cc Pink Purple #
 .navlink {
   padding: 1px 3px; 
   border-radius: 3px;
+  border-bottom: 3px white solid;
 }
 
 html {
